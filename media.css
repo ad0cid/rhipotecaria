@@ -1,0 +1,191 @@
+/*movil vertical*/
+@media all and (min-width:360px) and (max-width:374px){
+	nav{
+		padding-bottom: 20%;
+	}
+	#bienvenida{
+		padding: 40%;
+	}
+	#txt-bienvenida{
+		margin-top: -83%;
+		background-color: rgba(0, 0, 0, 0.2);
+	}
+	#capacitacion{
+		padding: 45%;
+		margin-top: 5%;
+	}
+	#mision{
+		margin-top: -50%;
+		font-size: 1.5em;
+	}
+	#hipotecario{
+		padding: 40%;
+		margin-top: 5%;
+	}
+	#txt-hipotecario{
+		font-size: 1.5em;
+		margin-top: -44%;
+	}
+	#pyme{
+		padding: 40%;
+		background-repeat: no-repeat;
+		margin-top: 4%;
+	}
+	#auto{
+		padding: 40%;
+		margin-top: 4%;
+	}
+}
+
+/*movil horizontal*/
+@media all and (min-width:640px) and (max-width:666px){
+	nav{
+		padding-bottom: 11%;
+	}
+	#bienvenida{
+		padding: 23%;
+	}
+	#txt-bienvenida{
+		margin-top: -32%;
+		background-color: rgba(0, 0, 0, 0.2);
+	}
+	#capacitacion{
+		padding: 23%;
+	}
+	#mision{
+		margin-top: -8%;
+		font-size: 1.5em;
+	}
+	h4{
+		font-size: 1.5em;
+	}
+	#hipotecario{
+		padding: 23%;
+	}
+	#txt-hipotecario{
+		font-size: 2em;
+		margin-top: -10%;
+	}
+	#pyme{
+		padding: 23%;
+	}
+	#auto{
+		margin-top: 1%;
+		padding: 23%;
+	}
+}
+
+/*Iphone vertical*/
+@media all and (min-width:375px) and (max-width:639px){
+	nav{
+		padding-bottom: 18%;
+	}
+	#bienvenida{
+		padding: 45%;
+		margin-top: -2%;
+	}
+	#txt-bienvenida{
+		margin-top: -80%;
+		background-color: rgba(0, 0, 0, 0.2);
+	}
+	#proceso{
+		margin-top: 20%;
+	}
+	#capacitacion{
+		padding: 30%;
+		margin-top: 15%;
+	}
+	#mision{
+		margin-top: -18%;
+		font-size: 1.5em;
+	}
+	#hipotecario{
+		padding: 30%;
+		margin-top: 4%;
+	}
+	#txt-hipotecario{
+		font-size: 1.5em;
+		margin-top: -23%;
+	}
+	#pyme{
+		padding: 30%;
+		margin-top: 3%;
+	}
+	#auto{
+		margin-top: 3%;
+		padding: 30%;
+	}
+}
+
+/*iphone horizontal*/
+@media all and (min-width:667px) and (max-width:767px){
+	nav{
+		padding-bottom: 11%;
+	}
+	#bienvenida{
+		padding: 24%;
+	}
+	#txt-bienvenida{
+		margin-top: -27%;
+		background-color: rgba(0, 0, 0, 0.2);
+	}
+	#capacitacion{
+		padding: 22%;
+		margin-top: 3%;
+	}
+	#mision{
+		font-size: 1.5em;
+	}
+	#hipotecario{
+		padding: 23%;
+	}
+	#txt-hipotecario{
+		font-size: 2em;
+	}
+	#pyme{
+		padding: 23%;
+		margin-top: 1%;
+	}
+	#auto{
+		padding: 23%;
+	}
+}
+
+/*ipad horizontal*/
+@media all and (min-width:768px) and (max-width:1023px){
+	#capacitacion{
+		padding: 30%;
+		margin-top: 3%;
+	}
+	#mision{
+		margin-top: -18%;
+	}
+	#hipotecario{
+		padding: 30%;
+	}
+	#txt-hipotecario{
+		margin-top: -22%;
+	}
+	#pyme{
+		padding: 30%;
+	}
+	#auto{
+		padding: 30%;
+	}
+}
+
+/*ipad vertical*/
+@media all and (min-width:1024px) and (max-width:1199px){
+	#capacitacion{
+		padding: 24%;
+	}
+	#mision{
+		margin-top: -14%;
+	}
+	#pyme{
+		padding: 30%;
+	}
+	#auto{
+		padding: 24%;
+	}
+}
