@@ -1,24 +1,14 @@
-.txt-verde{
-	color: #7d8f39;
-}
-.mt-10{
-	margin-bottom: 10%;
-}
-.pt-10{
-	padding-top: 10%;
+h3{
+	color: #7D8F39 ;
+	text-align: center;
 }
 nav{
 	background-color: #7d8f39;
 }
-.dropdown-content li>a{
-	color: #7d8f39 !important;
-}
 button{
-	background-color: #d37d39 !important;
+	background-color: #4B398F !important;
 }
-.bg-naranja{
-	color: #d37d39;
-}
+
 footer{
 	background-color: #7d8f39;
 	color: #ffffff;
@@ -30,58 +20,69 @@ footer{
 /*home*/
 #bienvenida{
 	background-image: url("img/formacion.jpg");
-	padding: 21%;
+	padding: 42%;
 	background-size: 100%;
-	background-position: center;
-	margin-bottom: 5%;
 	background-repeat: no-repeat;
 }
-#txt-bienvenida{
-	margin-top: -15%;
-	background-color: rgba(0, 0, 0, 0.7);
-}
-#txt-bienvenida > p{
-	color: #ffffff;
+.fz-1{
 	font-size: 1.5em;
+}
+.ver{
+	color: #4B398F !important;
+	font-weight: bold;
+}
+.pyme{
+	height: 162px;
+}
+.txt-azul{
+	color: #4B398F;
 }
 /*capacitacion*/
 #capacitacion{
 	background-image: url("img/beneficios.jpg");
-	padding: 21%;
+	margin-top: 5%;
+	padding: 40%;
 	background-size: 100%;
 	background-repeat: no-repeat;
 }
-#mision{
-	margin-top: -8%;
-	background-color: rgba(0, 0, 0, 0.7);
+/*servicios*/
+#servicios{
+	background-image: url("img/servicios.jpg");
+	padding: 40%;
+	background-size: 100%;
+	background-repeat: no-repeat;
 }
-/*credito hipotecario*/
 #hipotecario{
 	background-image: url("img/credito-hipotecario.jpg");
-	padding: 21%;
+	padding: 40%;
 	background-size: 100%;
 	background-repeat: no-repeat;
 }
-#txt-hipotecario{
-	margin-top: -8%;
-	background-color: rgba(0, 0, 0, 0.7);
-}
+
 /*credito pyme*/
 #pyme{
 	background-image: url("img/pyme.jpg");
-	padding: 21%;
+	padding: 40%;
 	background-size: 100%;
+	background-repeat: no-repeat;
 }
 
 /*credito automotriz*/
 #auto{
 	background-image: url("img/auto.jpg");
-	padding: 21%;
+	padding: 40%;
 	background-size: 100%;
 	background-repeat: no-repeat;
 }
 
 /*bolsa de trabajo*/
+#trabajo{
+	background-image: url("img/trabajo.jpg");
+	padding: 40%;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	margin-top: 2%;
+}
 .icon{
 	width: 25%;
 	height: 25%;

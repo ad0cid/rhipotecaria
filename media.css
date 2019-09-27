@@ -3,75 +3,23 @@
 	nav{
 		padding-bottom: 20%;
 	}
-	#bienvenida{
-		padding: 40%;
-	}
-	#txt-bienvenida{
-		margin-top: -83%;
-		background-color: rgba(0, 0, 0, 0.2);
-	}
-	#capacitacion{
-		padding: 45%;
-		margin-top: 5%;
-	}
-	#mision{
-		margin-top: -50%;
-		font-size: 1.5em;
-	}
-	#hipotecario{
-		padding: 40%;
-		margin-top: 5%;
-	}
-	#txt-hipotecario{
-		font-size: 1.5em;
-		margin-top: -44%;
-	}
-	#pyme{
-		padding: 40%;
-		background-repeat: no-repeat;
-		margin-top: 4%;
-	}
-	#auto{
-		padding: 40%;
-		margin-top: 4%;
+	.responsive{
+		display: none;
 	}
 }
-
 /*movil horizontal*/
 @media all and (min-width:640px) and (max-width:666px){
 	nav{
 		padding-bottom: 11%;
 	}
-	#bienvenida{
-		padding: 23%;
+	.escritorio{
+		display: none;
 	}
-	#txt-bienvenida{
-		margin-top: -32%;
-		background-color: rgba(0, 0, 0, 0.2);
-	}
-	#capacitacion{
-		padding: 23%;
-	}
-	#mision{
-		margin-top: -8%;
-		font-size: 1.5em;
+	.pyme{
+		height: 111px;
 	}
 	h4{
 		font-size: 1.5em;
-	}
-	#hipotecario{
-		padding: 23%;
-	}
-	#txt-hipotecario{
-		font-size: 2em;
-		margin-top: -10%;
-	}
-	#pyme{
-		padding: 23%;
-	}
-	#auto{
-		margin-top: 1%;
-		padding: 23%;
 	}
 }
 
@@ -80,40 +28,11 @@
 	nav{
 		padding-bottom: 18%;
 	}
-	#bienvenida{
-		padding: 45%;
-		margin-top: -2%;
+	.responsive{
+		display: none;
 	}
-	#txt-bienvenida{
-		margin-top: -80%;
-		background-color: rgba(0, 0, 0, 0.2);
-	}
-	#proceso{
-		margin-top: 20%;
-	}
-	#capacitacion{
-		padding: 30%;
-		margin-top: 15%;
-	}
-	#mision{
-		margin-top: -18%;
-		font-size: 1.5em;
-	}
-	#hipotecario{
-		padding: 30%;
-		margin-top: 4%;
-	}
-	#txt-hipotecario{
-		font-size: 1.5em;
-		margin-top: -23%;
-	}
-	#pyme{
-		padding: 30%;
-		margin-top: 3%;
-	}
-	#auto{
-		margin-top: 3%;
-		padding: 30%;
+	.auto{
+		height: 120px;
 	}
 }
 
@@ -123,31 +42,19 @@
 		padding-bottom: 11%;
 	}
 	#bienvenida{
-		padding: 24%;
+		padding: 40%;
 	}
-	#txt-bienvenida{
-		margin-top: -27%;
-		background-color: rgba(0, 0, 0, 0.2);
+	.escritorio{
+		display: none;
 	}
-	#capacitacion{
-		padding: 22%;
-		margin-top: 3%;
+	.pyme{
+		height: 115px;
 	}
-	#mision{
+	.auto{
+		height: 115px;
+	}
+	h4{
 		font-size: 1.5em;
-	}
-	#hipotecario{
-		padding: 23%;
-	}
-	#txt-hipotecario{
-		font-size: 2em;
-	}
-	#pyme{
-		padding: 23%;
-		margin-top: 1%;
-	}
-	#auto{
-		padding: 23%;
 	}
 }
 
@@ -157,20 +64,11 @@
 		padding: 30%;
 		margin-top: 3%;
 	}
-	#mision{
-		margin-top: -18%;
+	.escritorio{
+		display: none;
 	}
-	#hipotecario{
-		padding: 30%;
-	}
-	#txt-hipotecario{
-		margin-top: -22%;
-	}
-	#pyme{
-		padding: 30%;
-	}
-	#auto{
-		padding: 30%;
+	.pyme{
+		height: 108px;
 	}
 }
 
@@ -179,13 +77,16 @@
 	#capacitacion{
 		padding: 24%;
 	}
-	#mision{
-		margin-top: -14%;
+	.escritorio{
+		display: none;
 	}
-	#pyme{
-		padding: 30%;
+	.pyme{
+		height: 120px;
 	}
-	#auto{
-		padding: 24%;
+}
+/*desktop*/
+@media all and (min-width: 1200px){
+	.responsive{
+		display: none;
 	}
 }
