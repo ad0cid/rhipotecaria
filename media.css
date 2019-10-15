@@ -3,8 +3,18 @@
 	nav{
 		padding-bottom: 20%;
 	}
-	.responsive{
-		display: none;
+	.carousel, .carousel-slider{
+		height: 315px !important;
+	}
+	#cap, #hip, #pym, #aut{
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+	}
+	.save{
+		height: 68px;
+	}
+	#servicios{
+		margin-top: 6%;
 	}
 }
 /*movil horizontal*/
@@ -12,14 +22,21 @@
 	nav{
 		padding-bottom: 11%;
 	}
-	.escritorio{
-		display: none;
+	.carousel, .carousel-slider{
+		height: 295px !important;
 	}
-	.pyme{
-		height: 111px;
+	#cap, #hip, #pym, #aut{
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
 	}
 	h4{
 		font-size: 1.5em;
+	}
+	.an-hi-py{
+		height: 150px;
+	}
+	.an-hi-au{
+		height: 130px;
 	}
 }
 
@@ -28,11 +45,12 @@
 	nav{
 		padding-bottom: 18%;
 	}
-	.responsive{
-		display: none;
+	.carousel, .carousel-slider{
+		height: 315px !important;
 	}
-	.auto{
-		height: 120px;
+	#cap, #hip, #pym, #aut{
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
 	}
 }
 
@@ -41,52 +59,77 @@
 	nav{
 		padding-bottom: 11%;
 	}
-	#bienvenida{
-		padding: 40%;
-	}
-	.escritorio{
-		display: none;
-	}
-	.pyme{
-		height: 115px;
-	}
-	.auto{
-		height: 115px;
-	}
 	h4{
 		font-size: 1.5em;
+	}
+	#cap, #hip, #pym, #aut{
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+	}
+	.carousel, .carousel-slider{
+		height: 310px !important;
+	}
+	.ip-hm-au{
+		height: 110px;
+	}
+	.ip-hp-py{
+		height: 157px;
+	}
+	.ip-py-hi{
+		height: 135px;
+	}
+	.ip-au-hi{
+		height: 137px;
+	}
+	.ip-au-py{
+		height: 160px;
 	}
 }
 
 /*ipad horizontal*/
 @media all and (min-width:768px) and (max-width:1023px){
-	#capacitacion{
-		padding: 30%;
-		margin-top: 3%;
+	#cap, #hip, #pym, #aut{
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
 	}
-	.escritorio{
-		display: none;
+	.carousel, .carousel-slider{
+		height: 485px !important;
 	}
-	.pyme{
-		height: 108px;
+	.ipa-hm-py{
+		height: 110px;
+	}
+	.ipa-hi-py{
+		height: 180px;
 	}
 }
 
 /*ipad vertical*/
 @media all and (min-width:1024px) and (max-width:1199px){
-	#capacitacion{
-		padding: 24%;
-	}
-	.escritorio{
-		display: none;
-	}
 	.pyme{
 		height: 120px;
+	}
+	.serpy, .serau{
+		height: 197px;
 	}
 }
 /*desktop*/
 @media all and (min-width: 1200px){
-	.responsive{
-		display: none;
+	.ds-py-hm{
+		height: 163px;
+	}
+	.ds-py-ser{
+		height: 148px;
+	}
+	.ds-py-hip{
+		height: 238px;
+	}
+	.ds-au-hip{
+		height: 238px;
+	}
+	.ds-hi-au{
+		height: 235px;
+	}
+	.ds-py-au{
+		height: 235px;
 	}
 }

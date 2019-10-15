@@ -3,26 +3,65 @@ h3{
 	text-align: center;
 }
 nav{
-	background-color: #7d8f39;
+	background-color: #000;
+}
+nav ul a{
+	color: #7d8f39;
+	font-weight: bold;
+}
+.sidenav li>a{
+	color: #7d8f39;
 }
 button{
 	background-color: #4B398F !important;
 }
 
 footer{
-	background-color: #7d8f39;
-	color: #ffffff;
+	background-color: #000;
+	color: #7D8F39;
+}
+footer p{
+	font-weight: bold;
 }
 .privacidad{
-	color: white;
-	text-decoration: underline white;
+	color: #7d8f39;
+	text-decoration: underline #7d8f39;
 }
 /*home*/
-#bienvenida{
+.carousel{
+	height: 560px;
+}
+#cap{
 	background-image: url("img/formacion.jpg");
-	padding: 42%;
 	background-size: 100%;
-	background-repeat: no-repeat;
+	background-position: center;
+}
+#hip{
+	background-image: url("img/credito-hipotecario.jpg");
+	background-size: 100%;
+	background-position: center;
+}
+#aut{
+	background-image: url("img/auto.jpg");
+	background-size: 100%;
+	background-position: center;
+}
+#pym{
+	background-image: url("img/pyme.jpg");
+	background-size: 100%;
+}
+.titulo{
+	margin: 5% 0% 5% 0%;
+	font-size: 2em;
+	color: #fff;
+	background-color: rgba(125,143,57, 0.5);	
+}
+h2{
+	color: #7D8F39;
+	margin-bottom: 5%;
+	margin-top: -1%;
+	background-color: #ccc;
+	padding: 2%;
 }
 .fz-1{
 	font-size: 1.5em;
@@ -31,48 +70,36 @@ footer{
 	color: #4B398F !important;
 	font-weight: bold;
 }
-.pyme{
-	height: 162px;
-}
 .txt-azul{
 	color: #4B398F;
 }
+.linea{
+	width: 15%;
+	border: solid 3px #4B398F;
+	display: block;
+	margin: auto;
+}
 /*capacitacion*/
-#capacitacion{
-	background-image: url("img/beneficios.jpg");
-	margin-top: 5%;
-	padding: 40%;
-	background-size: 100%;
-	background-repeat: no-repeat;
+
+
+/*creditos*/
+.pyme{
+	height: 163px;
+	display: block;
+	margin:auto;
 }
-/*servicios*/
-#servicios{
-	background-image: url("img/servicios.jpg");
-	padding: 40%;
-	background-size: 100%;
-	background-repeat: no-repeat;
-}
-#hipotecario{
-	background-image: url("img/credito-hipotecario.jpg");
-	padding: 40%;
-	background-size: 100%;
-	background-repeat: no-repeat;
+.txt-c{
+	text-align: center;
+	font-weight: bold;
 }
 
-/*credito pyme*/
-#pyme{
-	background-image: url("img/pyme.jpg");
-	padding: 40%;
-	background-size: 100%;
-	background-repeat: no-repeat;
-}
 
-/*credito automotriz*/
-#auto{
-	background-image: url("img/auto.jpg");
-	padding: 40%;
-	background-size: 100%;
-	background-repeat: no-repeat;
+/*faq*/
+.txt{
+	font-size: 1.5em;
+}
+.info{
+	color: #4B398F;
 }
 
 /*bolsa de trabajo*/
@@ -88,5 +115,4 @@ footer{
 	height: 25%;
 	display: block;
 	margin: auto;
-	color: red;
 }

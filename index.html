@@ -17,6 +17,32 @@
         <title>Representación Hipotecaria | Inicio</title>
         <!--favicon-->
         <link rel="icon" href="img/favicon.ico">
+        <!-- Yandex.Metrika counter -->
+        <script type="text/javascript" >
+            (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)}; 
+                m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+                (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+                ym(55543912, "init", {
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true,
+                    webvisor:true
+            });
+        </script>
+        <noscript><div><img src="https://mc.yandex.ru/watch/55543912" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+        <!-- /Yandex.Metrika counter -->
+        <!-- Hotjar Tracking Code for https://ad0cid.github.io/rhipotecaria/ -->
+        <script>
+            (function(h,o,t,j,a,r){
+                h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+                h._hjSettings={hjid:1506206,hjsv:6};
+                a=o.getElementsByTagName('head')[0];
+                r=o.createElement('script');r.async=1;
+                r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+                a.appendChild(r);
+            })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+        </script>
     </head>
 
     <body>
@@ -27,7 +53,8 @@
                     <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                     <ul id="nav-mobile" class="right hide-on-med-and-down">
                         <li><a href="somos.html">Quiénes Somos</a></li>
-                        <li><a href="servicios.html">Servicios</a></li>
+                        <li><a href="capacitacion.html">Desarrollo de Fuerzas de Venta</a></li>
+                        <li><a href="creditos.html">Créditos</a></li>
                         <li><a href="faq.html">FAQ</a></li>
                         <li><a href="trabajo.html">Bolsa de trabajo</a></li>
                     </ul>
@@ -37,89 +64,93 @@
         <!--menu responsive-->
         <ul class="sidenav" id="mobile-demo">
             <li><a href="somos.html">Quiénes Somos</a></li>
-            <li><a href="servicios.html">Servicios</a></li>
+            <li><a href="capacitacion.html">Desarrollo de Fuerzas de Venta</a></li>
+            <li><a href="creditos.html">Créditos</a></li>
             <li><a href="faq.html">FAQ</a></li>
             <li><a href="trabajo.html">Bolsa de trabajo</a></li>
         </ul>
         <section>
-            <div class="row">
-                <div class="col m6 s12">
-                    <div id="bienvenida"></div>
-                </div>
-                <div class="col m6 s12">
-                    <h3>Bienvenido a Representación Hipotecaria</h3>
-                    <p class="center-align">Desarrolamos fuerzas de venta exclusivas para instituciones financieras.</p>
-                    <div class="row">
-                        <form action="" class="col s8 offset-s2 escritorio">
-                            <div class="row">
-                                <div class="input-field col s12">
-                                    <input id="nombre" type="text" class="validate">
-                                    <label for="first_name">Nombre Completo</label>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="input-field col s12">
-                                    <input id="telefono" type="text" class="validate">
-                                    <label for="first_name">Télefono</label>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="input-field col s12">
-                                    <input id="mail" type="text" class="validate">
-                                    <label for="first_name">Correo eléctronico</label>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col s10 offset-s1">
-                                    <button class="btn pulse">¡ Comencemos un proyecto juntos !</button>
-                                </div>
-                            </div>
-                        </form>
+            <div class="carousel carousel-slider" data-indicators="true">
+                <a class="carousel-item" href="capacitacion.html" id="cap">
+                    <div class="container">
+                        <br>
+                        <span class="titulo">Desarrollo de Fuerzas de Venta</span>
+                        <br>
+                        <br>
+                        <button class="btn pulse">Más información</button>
+                    </div>   
+                </a>
+                <a class="carousel-item" href="creditos.html" id="hip">
+                    <div class="container">
+                        <br>
+                        <span class="titulo">Crédito Hipotecario</span>
+                        <br><br>
+                        <button class="btn pulse">Más información</button>
+                    </div> 
+                </a>
+                <a class="carousel-item" href="creditos.html" id="pym">
+                    <div class="container">
+                        <br>
+                        <span class="titulo">Crédito PyME</span>
+                        <br>
+                        <br>
+                        <button class="btn pulse">Más información</button>
                     </div>
-                </div>
+                </a>
+                <a class="carousel-item" href="creditos.html" id="aut">
+                    <div class="container">
+                        <br>
+                        <span class="titulo">Crédito Automotriz</span>
+                        <br>
+                        <br>
+                        <button class="btn pulse">Más información</button>
+                    </div>
+                </a>
             </div>
-            <div class="row">
-                <form action="" class="col s8 offset-s2 responsive">
-                    <div class="row">
-                        <div class="input-field col s12">
-                            <input id="nombre" type="text" class="validate">
-                            <label for="first_name">Nombre Completo</label>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="input-field col s12">
-                            <input id="telefono" type="text" class="validate">
-                            <label for="first_name">Télefono</label>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="input-field col s12">
-                            <input id="mail" type="text" class="validate">
-                            <label for="first_name">Correo eléctronico</label>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col s10 offset-s1">
-                            <button class="btn pulse">¡ Comencemos un proyecto juntos !</button>
-                        </div>
-                    </div>
-                </form>
-            </div>
+            <h2 class="center-align">Bienvenido a <br> Representación Hipotecaria</h2>
             <div class="container">
                 <div class="row"> <!--quienes somos-->
                     <h3>Quiénes Somos</h3>
+                    <div class="linea"></div>
                 </div>
                 <div class="row">
-                    <div class="col m6 s12">
-                        
-                    </div>
-                    <div class="col m6 s12">
-                        <p class="center-align fz-1">Acercate a nosotros. <br> Reclutamos, seleccionamos y desarrollamos especialistas que te representan. <br> Te ayudamos a concretar tu proyecto.</p>
+                    <div class="col m10 s12 offset-m1">
+                        <p class="fz-1 center-align">Acercate a nosotros:</p>
+                        <p class="fz-1">Desarrollamos fuerzas de venta exclusivas para instituciones financieras.<br> Somos formadores de fuerzas de venta con una fuerte identidad corporativa. <br> Reclutamos, seleccionamos y desarrollamos especialistas que te representan. </p>
                         <a href="somos.html" class="center-align"><p>Conoce más</p></a>
                     </div>
                 </div>
+                <br>
+                <div class="row"> <!--fuerzas de venta-->
+                    <h3>Desarrollo de Fuerzas de Venta</h3>
+                    <div class="linea"></div>
+                </div>
+                <div class="row">
+                    <div class="col m6 s12">
+                        <img src="img/formacion.jpg" alt="" class="responsive-img">
+                    </div>
+                    <div class="col m6 s12">
+                        <p class="fz-1">Captamos, desarrollamos y retenemos especialistas de crédito a través de la formación de líderes de negocio.</p>
+                        <a href="capacitacion.html" class="center-align"><p>Conoce más</p></a>
+                    </div>
+                </div>
+                <div class="row">  
+                    <br>
+                    <h3>Créditos</h3>  
+                    <div class="linea"></div>
+                    <br>
+                    <div class="col m6 s12">
+                        <p class="fz-1">Te ayudamos a conseguir el mejor crédito para ti</p>
+                        <a href="creditos.html" class="center-align"><p>Conoce más</p></a>
+                    </div>
+                    <div class="col m6 s12">
+                        <img src="img/creditos.jpg" class="responsive-img" alt="">
+                    </div>
+                </div>
+                <br>
                 <div class="row">
                     <h3>Beneficios</h3> <!--beneficios-->
+                    <div class="linea"></div>
                     <p class="center-align fz-1">Logra el éxito con una fuerza de ventas exclusiva.</p>
                 </div>
                 <div class="row center-align">
@@ -136,72 +167,12 @@
                         <p>Coaching comercial</p>
                     </div>
                     <div class="col m3 s6">
-                        <img src="img/plan.png" alt="" class="icon">
+                        <img src="img/skills.png" alt="" class="icon">
                         <p>Plan de carrera</p>
                     </div>
                 </div>
-                <div class="row"> <!--servicios-->
-                    <h3>Servicios</h3>
-                </div>
-                <div class="row">
-                    <div class="col m6 offset-m3 s12">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="img/beneficios.jpg">
-                            </div>
-                            <div class="card-content">
-                                <p class="center-align">Desarrollo de fuerzas de Venta</p>
-                            </div>
-                            <div class="card-action">
-                                <a href="capacitacion.html" class="ver">Ver más</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">  
-                    <br>
-                    <h3>Líneas de negocio</h3>  
-                    <div class="col m4 s12">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="img/credito-hipotecario.jpg">
-                            </div>
-                            <div class="card-content">
-                                <p class="center-align">Crédito Hipotecario</p>
-                            </div>
-                            <div class="card-action">
-                                <a href="hipotecario.html" class="ver">Ver más</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col m4 s12">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="img/pyme.jpg" class="pyme">
-                            </div>
-                            <div class="card-content">
-                                <p class="center-align">Crédito Pyme</p>
-                            </div>
-                            <div class="card-action">
-                                <a href="pyme.html" class="ver">Ver más</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col m4 s12">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="img/auto.jpg" class="auto">
-                            </div>
-                            <div class="card-content">
-                                <p class="center-align">Crédito Automotriz</p>
-                            </div>
-                            <div class="card-action">
-                                <a href="automotriz.html" class="ver">Ver más</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
+                <br>
+                <div class="row"> <!--contacto-->
                     <br>
                     <p class="center-align fz-1">Ponte en contacto con nosotros, te responderemos a la brevedad.</p>
                 </div>
@@ -250,6 +221,16 @@
         <script>
             $(document).ready(function(){
                 $('.sidenav').sidenav();
+
+                $('.carousel.carousel-slider').carousel({
+                    fullWidth: true,
+                    indicators: true,
+                });
+                autoplay();
+                function autoplay() {
+                    $('.carousel').carousel('next');
+                    setTimeout(autoplay, 2500);
+                }
             });
         </script>
     </body>
