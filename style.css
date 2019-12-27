@@ -1,3 +1,9 @@
+/*home*/
+.logo{
+	margin-top: 3%;
+	width: 50%;
+}
+
 h3{
 	color: #7D8F39 ;
 	text-align: center;
@@ -6,7 +12,7 @@ nav{
 	background-color: #000;
 }
 nav ul a{
-	color: #7d8f39;
+	color: #ccc;
 	font-weight: bold;
 }
 .sidenav li>a{
@@ -18,14 +24,14 @@ button{
 
 footer{
 	background-color: #000;
-	color: #7D8F39;
+	color: #ccc;
 }
 footer p{
 	font-weight: bold;
 }
 .privacidad{
-	color: #7d8f39;
-	text-decoration: underline #7d8f39;
+	color: #ccc;
+	text-decoration: underline #ccc;
 }
 /*home*/
 .carousel{
@@ -47,8 +53,9 @@ footer p{
 	background-position: center;
 }
 #pym{
-	background-image: url("img/pyme.jpg");
+	background-image: url("img/creditos.jpg");
 	background-size: 100%;
+	background-position: center;
 }
 .titulo{
 	margin: 5% 0% 5% 0%;
@@ -56,13 +63,14 @@ footer p{
 	color: #fff;
 	background-color: rgba(125,143,57, 0.5);	
 }
-h2{
-	color: #7D8F39;
-	margin-bottom: 5%;
-	margin-top: -1%;
-	background-color: #ccc;
-	padding: 2%;
+#presentacion{
+ background-color: #7D8F39;
+ color: white;
+ text-align: center;
+ padding: 2%;
+ margin-bottom: 5%;
 }
+
 .fz-1{
 	font-size: 1.5em;
 }
@@ -79,8 +87,26 @@ h2{
 	display: block;
 	margin: auto;
 }
+.frase{
+	background-color: #7D8F39;
+	color: white;
+	text-align: center;
+	padding: 2%;
+	font-size: 2em;
+	margin-bottom: 5%;
+}
+.link{
+	color: #7D8F39 !important;
+	text-decoration: underline #7D8F39;
+}
+	
 /*capacitacion*/
-
+.santander{
+	width: 80%;
+	display: block;
+	margin: auto;
+	padding-top: 9%;
+}
 
 /*creditos*/
 .pyme{
@@ -92,7 +118,10 @@ h2{
 	text-align: center;
 	font-weight: bold;
 }
-
+.txt-v{
+	color: #7D8F39;
+	font-weight: bold;
+}
 
 /*faq*/
 .txt{
